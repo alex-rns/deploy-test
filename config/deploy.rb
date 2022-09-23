@@ -14,7 +14,7 @@ set :linked_dirs,  fetch(:linked_dirs, []).push('log', 'tmp/pids', 'tmp/cache', 
                                                 'storage')
 
 set :config_example_suffix, '.example'
-set :config_files, %w[config/database.yml]
+set :config_files, %w[config/database.yml, config/master.key]
 set :nginx_use_ssl, false
 
 namespace :deploy do
