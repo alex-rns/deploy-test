@@ -31,3 +31,4 @@
 /config/master.key
 /config/database.production.yml
 /.idea
+/config/database.production.yml
